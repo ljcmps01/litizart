@@ -56,9 +56,9 @@ p, a {font-weight: 400;}
 }
 .btn-outline-primary:hover{
   background-color: #e35d51 !important;
-  border-color: brown !important;
+  /* border-color: brown !important; */
 }
-.btn-outline-primary:active{
+.btn-outline-primary{
   border-color: brown !important;
 }
 
@@ -162,14 +162,6 @@ a{
 }
 
 /* Work */
-/* Singel Work */
-#work_single_banner {
-  background-image: url('./../img/banner-bg-02.jpg');
-  background-position: center center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-}
 .related-content {
   border-radius: 20px;
   cursor: pointer;
