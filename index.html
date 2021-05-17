@@ -1,0 +1,312 @@
+<!DOCTYPE html>                         <!----- definición de html 5 -->          
+<html lang="es"> 						<!----- definición del lenguaje -->  
+										<!------Inicio del  HEAD -->
+<head>
+    <title>Litizart</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+	<!----- viewport para apple device-width = ancho pantalla initial-scale es que inicia sin ningún zoom --> 
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+	<!----- icono para apple y safari --> 
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/Litizartico.png">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+	    <!-- iconos  -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+        <!-- Bootstrap icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+	    <!-- tipo de letra -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+		<!-- carga CSS -->
+    
+</head>
+<!-----
+.text-primary  		azul
+.text-secondary		gris
+.text-success		verde
+.text-danger		rojo
+.text-warning		amarillo
+.text-info			celeste
+.text-light			blanco
+.text-dark			negro
+.text-muted			gris oscuro
+.text-white			gris claro
+-->
+<!------------------------------------------------------------------ Fin del  HEAD -->
+<body>
+    <!-- Header 
+	nav = cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual 
+	o a otros documentos
+	-->
+
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light shadow" style="background-color: #fef8ea;">
+	
+	<!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+	navbar-light = texto negro de la letra
+	bg-white = fondo de color blanco
+	-->
+
+        <div class="container d-flex justify-content-between align-items-center">
+		
+            <a class="navbar-brand h1" id="icon" href="index.html">
+			    <!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->	
+                <img src="assets/img/Litizart.jpg"  alt="" width="75vw">
+                <!-- <i class='bx bx-buildings bx-sm text-dark'></i> -->
+				<!--	bx bx-buildings = icono del logo de la web: 
+				http://www.unisvg.com/icon-sets/bx/bx-buildings.html 
+				https://boxicons.com/
+				-->
+
+	            <!-- <span class="text-dark h4">Marke-</span><span class="text-primary h4">Ting</span> -->
+            </a>
+			    <!--	boton de hamburguesa --> 
+            <button class="navbar-toggler border-0" 
+				type="button" data-bs-toggle="collapse" 
+				data-bs-target="#navbar-toggler-success" 
+				aria-controls="navbarSupportedContent" 
+				aria-expanded="false" 
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon">
+				</span>
+            </button>
+		<!------------------------------------------- Opciones del Menu		-->
+		    <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" 
+		        id="navbar-toggler-success">
+		
+                <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+                por un punto de interrupción principal.
+                flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+                d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+                directos en elementos flexibles
+                -->
+                <div class="flex-fill mx-xl-5 mb-2">
+                    <!--mx=para clases que establecen tanto *-lefty*-right-->
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                    <!--.navbar-nav para una navegación ligera y de altura completa 
+                    (incluida la compatibilidad con menús desplegables).-->
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Home</a>
+                        <!-- px = padding y mx es el margin 
+                        rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.html">Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.html">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.html">Contáctame</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+<!---------------------------------------------------------Fin de las opciones del menu -->
+        </div>
+    </nav>
+<!----------------------------------------------------------- Fin de los iconos del menu-->
+<!----------------------------------------------------------- Fin del Header-->
+
+<!-- Start Banner Hero -->
+    <section class="bg-white w-100">
+        <div class="container">
+            <div class="row d-flex align-items-center py-5">
+                <div class="col-6 text-start">
+                    <h1 class="h2 py-5 text-primary typo-space-line">Sobre Mi</h1>
+                    <p class="light-300">
+                        Buen día! mi nombre es Tiziana Toso, trabajo en diseños propios y diseños por encargue. 
+                        Esta es mi pagina web en la que podras encargar cualquier tipo de cuadro
+                        y en cualquier forma deseada mediante mail o teléfono. <br>
+                        Espero que puedas encontrar lo que buscas 🥰
+                    </p>
+                </div>
+                <div class="col-6">
+                    <img class="img-fluid rounded-circle float-end" src="./assets/img/AboutMe.jpg" width="75%">
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- End Banner Hero -->
+
+<!-- Start Recent Work -->
+    <section class="py-5 mb-5">
+        <div class="container">
+            <div class="recent-work-header row text-center pb-5">
+                <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5"> <span><i class='bx bx-paint h3 mt-1'></i></span> Mis Trabajos</h2>
+                <a href="work.html" class="btn btn-light rounded-pill btn-block shadow px-4 py-2">Portfolio</a>
+            </div>
+            
+            <div class="row gy-5 g-lg-5 mb-4">
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/digital-cover.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Diseños digitales</h3>
+                                <p class="card-text">Realizo dibujos digitales de cualquier foto, tambien hago diseño de logos para tu empresa</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/Nature-cover.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Naturaleza</h3>
+                                <p class="card-text">Hago cuadros de objetos relacionados con la naturaleza, como flores, animales o paisajes</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/Character-cover-DarthVader.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Personajes</h3>
+                                <p class="card-text">Hago cuadros de los personajes de tus series/peliculas favoritas.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                </div>
+            </div>
+        </section>
+        <!-- End Recent Work -->
+        
+
+    </section>
+
+    
+
+
+    <!-- Start Footer -->
+    <footer class="bg-secondary pt-4">
+        <div class="container">
+            <div class="row py-4">
+
+                <div class="col-lg-4 col-12 align-left">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/Litizart.jpg" class="img-fluid rounded-circle" alt="" width="50vw">
+                        <span class="text-light h5">Litizart</span>
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        Gracias por visitar mi página y apoyar a jovenes artistas, espero trabajar con vos en algun momento.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">
+                        <a href="#" class="text-decoration-none text-light">
+                            <i class='bx bxs-chevrons-up' ></i> Navegación
+                        </a>
+                    </h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" 
+                            href="index.html">Home</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                            href="work.html">Trabajos</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" 
+                            href="pricing.html">Precios</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                            href="contact.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">
+                        <a href="contact.html" class="text-decoration-none text-light py-1">Contactame en:</a>
+                    </h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="tel:010-020-0340">011-2233-4455</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+							href="mailto:email@example.com">email@example.com</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx bxl-instagram bx-xs'></i><a class="text-decoration-none text-light py-1"
+							href="mailto:email@example.com"> litizart</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-100 bg-primary py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300">
+                            © Copyright 2021 Litizart. Todos los derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            Diseñado por <a rel="sponsored" class="text-decoration-none text-light" 
+							href="https://github.com/ljcmps01" target="_blank"><strong>Campos Alejo</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Load jQuery require for isotope -->
+    <script src="assets/js/jquery.min.js"></script>
+   <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.js"></script>
+    <!-- Page Script -->
+    <script>
+        $(window).load(function() {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function() {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>	
+ 
+   
+</body>
+
+</html>
