@@ -1,2 +1,2 @@
 # litizart
-Litizart web page/portfoli
+Litizart web page/portfolio
