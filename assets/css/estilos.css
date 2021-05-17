@@ -209,7 +209,7 @@ footer a.text-light:hover {
 }
 
 .btn-secondary{
-  background-color: #e35d51;
+  background-color: #e35d51 !important;
 }
 .btn-secondary:hover{
   background-color: #fff;
