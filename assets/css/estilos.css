@@ -212,6 +212,6 @@ footer a.text-light:hover {
   background-color: #e35d51 !important;
 }
 .btn-secondary:hover{
-  background-color: #fff;
+  background-color: #fff !important;
   color: #e35d51 !important;
 }
